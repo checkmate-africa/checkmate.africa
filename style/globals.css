@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  /* colors */
+  --black: #1e1e1e;
+  --white: #ffffff;
+  --primary-color: #202a3c;
+  --secondary-color: #f7b2ad;
+  --tetiary-color: #f1e1e0;
+  --darkgrey: #9fa3a7;
+  --grey: rgba(255, 255, 255, 0.7);
+
+  /* fonts */
+  --font-nunito: "Nunito", sans-serif;
+  --font-josefin: "Josefin Sans", sans-serif;
+}
+
+body {
+  color: var(--black);
+  font-family: var(--font-nunito);
+  overscroll-behavior: none;
+}
+
+@layer utilities {
+  .container {
+    max-width: 100rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+
+  @media screen and (max-width: 976px) {
+    .container {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}
+
+@tailwind utilities;
