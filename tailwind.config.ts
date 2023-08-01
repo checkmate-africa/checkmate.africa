@@ -17,7 +17,7 @@ module.exports = {
       secondary: 'var(--secondary-color)',
       tetiary: 'var(--tetiary-color)',
       darkgrey: 'var(--darkgrey)',
-      grey: 'var(--grey)',
+      lightgrey: 'var(--lightgrey)',
     },
 
     fontFamily: {

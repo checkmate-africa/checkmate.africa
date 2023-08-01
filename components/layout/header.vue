@@ -16,7 +16,7 @@
         :class="
           clsx('order-3 max-md:w-full', {
             'max-md:hidden': !navOpen,
-            'max-md:absolute max-md:top-0 max-md:h-[100vh] max-md:bg-black max-md:left-0':
+            'max-md:absolute max-md:top-0 max-md:h-[100vh] max-md:bg-primary max-md:left-0':
               navOpen,
           })
         "
@@ -27,7 +27,7 @@
           <li v-for="(link, index) in nav" :key="index">
             <a
               :href="link.url"
-              class="text-base text-grey max-md:font-extralight max-md:font-josefin max-md:uppercase"
+              class="text-base text-lightgrey max-md:font-light max-md:font-josefin max-md:uppercase"
               >{{ link.title }}</a
             >
           </li>

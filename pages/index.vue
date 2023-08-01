@@ -18,7 +18,9 @@
               potential today!
             </h1>
 
-            <Button>Join Community</Button>
+            <a href="/sign-up">
+              <Button>Join Community</Button>
+            </a>
           </div>
         </div>
       </section>
@@ -49,7 +51,7 @@
 
             <div class="grow pl-24 pr-10 max-md:pl-0 max-md:pr-24 max-sm:pr-10">
               <p
-                class="text-black text-lg font-semibold max-md:opacity-70 max-md:leading-[200%]"
+                class="text-black text-lg leading-[180%] font-semibold max-md:opacity-70 max-md:leading-[200%]"
               >
                 It is a long established fact that a reader will be distracted
                 by the readable content. It is a long established fact that a
@@ -100,7 +102,9 @@
           fulfilling purpose in our own lives”
         </blockquote>
 
-        <Button variant="tetiary"> Volunteer </Button>
+        <a href="#" target="_blank" rel="noreferrer noopener"
+          ><Button variant="tetiary"> Volunteer </Button></a
+        >
       </section>
 
       <section class="container mb-[11.5rem] max-sm:mb-[4rem]">
@@ -117,7 +121,8 @@
               Empowering techies to do more and be productive
             </h2>
           </div>
-          <Button variant="secondary"> Join Now </Button>
+
+          <a href="/sign-up"><Button variant="secondary"> Join Now </Button></a>
         </div>
       </section>
     </main>

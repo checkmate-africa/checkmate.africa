@@ -27,7 +27,7 @@
         class="flex items-center justify-end max-md:flex-col max-md:items-start max-md:justify-start gap-12 font-light mt-16 max-md:mt-0"
       >
         <li v-for="(link, index) in nav" :key="index">
-          <a :href="link.url" class="text-base text-white font-medium">{{
+          <a :href="link.url" class="text-base text-white font-light">{{
             link.title
           }}</a>
         </li>
