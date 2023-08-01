@@ -22,14 +22,14 @@
 
           <div
             v-if="field.options"
-            class="w-full border border-solid border-[#ECECEC] bg-white overflow-hidden px-4 rounded-[50px]"
+            class="w-full border border-solid border-[#ECECEC] bg-white overflow-hidden px-4 rounded-[50px] h-14"
           >
             <select
               :id="field.name"
               required
               :name="field.name"
               :class="
-                clsx('outline-none py-4 w-full', {
+                clsx('outline-none h-full w-full bg-white', {
                   'text-darkgrey': !field.value,
                 })
               "
@@ -53,7 +53,7 @@
             :id="field.name"
             :name="field.name"
             :placeholder="field.placeholder"
-            class="placeholder:text-darkgrey border border-[#ECECEC] p-4 rounded-[50px]"
+            class="placeholder:text-darkgrey border border-[#ECECEC] p-4 rounded-[50px] h-14"
             @input="updateField($event, field)"
           />
         </div>
