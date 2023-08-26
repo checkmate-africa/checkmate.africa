@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo', '@nuxt/image'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo'],
   css: ['@/style/reset.css', '@/style/globals.css'],
   components: [
     {
@@ -53,9 +53,5 @@ export default defineNuxtConfig({
     autoImportPath: 'public/svgs',
     defaultImport: 'component',
     global: false,
-  },
-  image: {
-    format: ['webp', 'png', 'svg'],
-    dir: '/',
   },
 })

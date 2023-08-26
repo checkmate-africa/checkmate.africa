@@ -17,7 +17,7 @@
               target="_blank"
               rel="noreferrer noopener"
             >
-              <NuxtImg :src="social.icon" class="w-full h-full max-w-full" />
+              <img :src="social.icon" class="w-full h-full max-w-full" />
             </NuxtLink>
           </div>
         </div>

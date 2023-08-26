@@ -71,7 +71,7 @@
             class="flex flex-col w-full min-h-[36rem] max-sm:min-h-[32rem] bg-primary rounded-[20px] overflow-hidden max-md:w-[49%] max-sm:w-full"
           >
             <figure>
-              <NuxtImg
+              <img
                 class="w-full h-[21.4rem] max-sm:h-[17rem] object-cover"
                 :src="activity.banner"
               />
