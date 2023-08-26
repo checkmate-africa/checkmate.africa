@@ -1,18 +1,18 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Checkmate Africa - Delivery partner for your business',
+      title: 'Checkmate Africa',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
       meta: [
         {
           name: 'description',
-          content: 'Find accountability partners and stay productive.',
+          content:
+            'Helping creatives across Africa unlock boundless potential.',
         },
         {
           name: 'keywords',
-          content:
-            'Delivery, Package Delivery, Logistics, Fast Delivery, Reliable Delivery',
+          content: 'Community, Tech, Creatives',
         },
         {
           name: 'twitter:card',
@@ -20,7 +20,16 @@ export default defineNuxtConfig({
         },
         {
           name: 'theme-color',
-          content: '#000000',
+          content: '#202A3C',
+        },
+        {
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          property: 'og:image',
+          content:
+            'https://res.cloudinary.com/kadet/image/upload/q_100/v1693072456/checkmate/Group_55_mhibob.svg',
         },
         {
           property: 'og:type',
@@ -28,7 +37,7 @@ export default defineNuxtConfig({
         },
         {
           property: 'og:url',
-          content: 'https://pickr.ng',
+          content: 'https://checkmateafrica.org/',
         },
       ],
       htmlAttrs: {
