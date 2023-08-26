@@ -2,7 +2,7 @@
   <button
     :class="
       clsx(
-        'w-fit flex items-center justify-center text-base max-sm:text-sm font-bold',
+        'w-fit flex items-center justify-center text-base max-sm:text-sm font-bold disabled:grayscale disabled:pointer-events-none disabled:opacity-70',
         {
           'w-full': fullWidth,
           'bg-secondary text-black': variant === 'secondary',

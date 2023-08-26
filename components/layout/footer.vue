@@ -12,9 +12,13 @@
             :key="index"
             class="w-10 h-10 rounded-full p-3 bg-[rgba(30,30,30,0.2)]"
           >
-            <a :href="social.url">
+            <NuxtLink
+              :href="social.url"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <NuxtImg :src="social.icon" class="w-full h-full max-w-full" />
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -27,9 +31,13 @@
         class="flex items-center justify-end max-md:flex-col max-md:items-start max-md:justify-start gap-12 font-light mt-16 max-md:mt-0"
       >
         <li v-for="(link, index) in nav" :key="index">
-          <a :href="link.url" class="text-base text-white font-light">{{
-            link.title
-          }}</a>
+          <NuxtLink
+            :href="link.url"
+            :target="link.external ? '_blank' : undefined"
+            rel="noreferrer noopener"
+            class="text-base text-white font-light"
+            >{{ link.title }}</NuxtLink
+          >
         </li>
       </ul>
     </div>
@@ -38,14 +46,26 @@
 
 <script setup lang="ts">
 const nav = [
-  { title: 'Partnerships', url: '/partnerships' },
-  { title: 'Sponsorships', url: '/donate' },
-  { title: 'Community Guidelines', url: '/guidelines' },
+  { title: 'Partnerships', url: '#', external: false },
+  { title: 'Sponsorships', url: '#', external: false },
+  { title: 'Report Abuse', url: '/report-abuse', external: false },
 ]
 
 const socials = [
-  { title: 'twitter', url: '/', icon: '/svgs/twitter.svg' },
-  { title: 'linked in', url: '/', icon: '/svgs/linkedin.svg' },
-  { title: 'github', url: '/', icon: '/svgs/github.svg' },
+  {
+    title: 'twitter',
+    url: 'https://twitter.com/checkmateafrica',
+    icon: '/svgs/twitter.svg',
+  },
+  {
+    title: 'linked in',
+    url: 'https://www.linkedin.com/company/checkmate-africa',
+    icon: '/svgs/linkedin.svg',
+  },
+  {
+    title: 'github',
+    url: 'https://github.com/checkmate-africa',
+    icon: '/svgs/github.svg',
+  },
 ]
 </script>

@@ -1,6 +1,6 @@
 interface FormField {
   name: string
-  type: string
+  type: 'email' | 'text' | 'textarea'
   placeholder: string
   label: string
   value: string
@@ -16,15 +16,12 @@ type FormFields = {
 }
 
 export const useSignupForm = () => {
-  const skillsCategories = ['Frontend Development', 'Backend Development']
-  const expereinceLevels = ['Less than a year', 'One - Two Years']
-
-  const formFields = {
+  const formFields: { [x: string]: FormField } = {
     name: {
       name: 'name',
       type: 'text',
-      placeholder: 'Johnny Bravo',
-      label: 'Name/Nickname',
+      placeholder: 'Michelle Doe',
+      label: 'Your Name',
       value: '',
       error: '',
     },
@@ -36,27 +33,19 @@ export const useSignupForm = () => {
       value: '',
       error: '',
     },
-    skill: {
-      name: 'skill-category',
-      type: 'select',
-      placeholder: 'Select',
-      label: 'Skill category',
-      options: skillsCategories.map((item) => ({
-        label: item,
-        value: item,
-      })),
+    slackUsername: {
+      name: 'slack-username',
+      type: 'text',
+      placeholder: '@yourslackid',
+      label: 'Slack Username',
       value: '',
       error: '',
     },
-    experience: {
-      name: 'experience',
-      type: 'select',
-      placeholder: 'Select',
-      label: 'Years Of Expereince',
-      options: expereinceLevels.map((item) => ({
-        label: item,
-        value: item,
-      })),
+    complaint: {
+      name: 'complaint',
+      type: 'textarea',
+      placeholder: 'Describe your issue in details.',
+      label: 'Your Complaint',
       value: '',
       error: '',
     },

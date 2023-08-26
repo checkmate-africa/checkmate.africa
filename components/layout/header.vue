@@ -25,11 +25,11 @@
           class="flex items-center gap-12 font-light max-md:flex-col max-md:px-8 max-md:w-full max-md:mt-24 max-md:pt-12"
         >
           <li v-for="(link, index) in nav" :key="index">
-            <a
+            <NuxtLink
               :href="link.url"
               class="text-base text-lightgrey max-md:font-light max-md:font-josefin max-md:uppercase"
-              >{{ link.title }}</a
-            >
+              >{{ link.title }}
+            </NuxtLink>
           </li>
         </ul>
       </nav>
@@ -51,7 +51,7 @@
         <span
           :class="
             clsx('h-[1.5px] bg-white transition-all', {
-              'w-8': !navOpen,
+              'w-6 ml-auto': !navOpen,
               'relative -rotate-45 w-6 top-[calc(-0.75px-0.125rem)]': navOpen,
             })
           "
@@ -69,10 +69,10 @@ defineProps<{
 }>()
 
 const nav = [
-  { title: 'About', url: '/about' },
-  { title: 'Team', url: '/team' },
-  { title: 'Events', url: '/events' },
-  { title: 'Community Guidelines', url: '/guidelines' },
+  { title: 'About', url: '#' },
+  { title: 'Team', url: '#' },
+  { title: 'Events', url: '#' },
+  { title: 'Community Guidelines', url: '#' },
 ]
 
 const navOpen = ref(false)
