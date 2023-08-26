@@ -50,12 +50,12 @@ export default defineNuxtConfig({
   ],
 
   svgo: {
-    autoImportPath: '@/assets/svgs/',
+    autoImportPath: 'public/svgs',
     defaultImport: 'component',
     global: false,
   },
   image: {
     format: ['webp', 'png', 'svg'],
-    dir: 'assets',
+    dir: 'public',
   },
 })

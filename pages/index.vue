@@ -2,7 +2,7 @@
   <div>
     <main class="relative overflow-hidden">
       <section
-        class="h-[31rem] bg-primary flex flex-col justify-end bg-cover bg-no-repeat bg-[url('assets/imgs/hero-bg.png')]"
+        class="h-[31rem] bg-primary flex flex-col justify-end bg-cover bg-no-repeat bg-[url('/imgs/hero-bg.png')]"
       >
         <Header role="banner" transparent />
 
