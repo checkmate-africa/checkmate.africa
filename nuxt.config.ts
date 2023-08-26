@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'Community of creatives across Africa | Accountability partners, focus rooms, open-source projects.',
+            'Community of creatives | Accountability partners, focus rooms, open-source projects.',
         },
         {
           name: 'keywords',
