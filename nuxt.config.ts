@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'Community of creatives across Africa helping each other unlock boundless potential with accountability partners, focus rooms, open-source projects and more',
+            'Community of creatives across Africa | Accountability partners, focus rooms, open-source projects and more',
         },
         {
           name: 'keywords',
@@ -29,7 +29,7 @@ export default defineNuxtConfig({
         {
           property: 'og:image',
           content:
-            'https://res.cloudinary.com/kadet/image/upload/q_100/f_png/v1693073543/checkmate/Group_55_1_jpeufq.svg',
+            'https://res.cloudinary.com/kadet/image/upload/f_png/v1693073797/checkmate/Group_55_2_wrdphp.svg',
         },
         {
           property: 'og:type',
