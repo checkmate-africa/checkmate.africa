@@ -29,7 +29,7 @@ export default defineNuxtConfig({
         {
           property: 'og:image',
           content:
-            'https://res.cloudinary.com/kadet/image/upload/q_100/v1693072456/checkmate/Group_55_mhibob.svg',
+            'https://res.cloudinary.com/kadet/image/upload/q_100/f_png/v1693072456/checkmate/Group_55_mhibob.svg',
         },
         {
           property: 'og:type',
