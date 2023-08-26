@@ -56,5 +56,6 @@ export default defineNuxtConfig({
   },
   image: {
     format: ['webp', 'png', 'svg'],
+    dir: '/',
   },
 })
