@@ -112,7 +112,7 @@
           rel="noreferrer noopener"
           target="_blank"
         >
-          <Button variant="tetiary" disabled>Volunteer</Button>
+          <Button variant="tetiary">Volunteer</Button>
         </a>
       </section>
 
