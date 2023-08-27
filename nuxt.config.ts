@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'Community of creatives | Accountability partners, focus rooms, open-source projects.',
+            'Community of creatives across Africa | Accountability partners, focus rooms, open-source projects.',
         },
         {
           name: 'keywords',
@@ -25,6 +25,15 @@ export default defineNuxtConfig({
         {
           property: 'og:type',
           content: 'website',
+        },
+        {
+          name: 'og:title',
+          content: 'Checkmate Africa',
+        },
+        {
+          name: 'og:description',
+          content:
+            'Community of creatives across Africa | Accountability partners, focus rooms, open-source projects.',
         },
         {
           property: 'og:image',
