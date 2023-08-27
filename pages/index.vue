@@ -19,9 +19,13 @@
               potential.
             </h1>
 
-            <!-- <a href="#" rel="noreferrer noopener"> -->
-            <Button variant="primary" disabled>Join Community</Button>
-            <!-- </a> -->
+            <a
+              href="https://join.slack.com/t/checkmateafrica/shared_invite/zt-21iihytuf-kQuJ0cwZifb9pjBSZAHOKw"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <Button variant="primary">Join Community</Button>
+            </a>
           </div>
         </div>
       </section>
@@ -123,9 +127,13 @@
             </h2>
           </div>
 
-          <!-- <a href="#" rel="noreferrer noopener"> -->
-          <Button variant="secondary" disabled> Join Now </Button>
-          <!-- </a> -->
+          <a
+            href="https://join.slack.com/t/checkmateafrica/shared_invite/zt-21iihytuf-kQuJ0cwZifb9pjBSZAHOKw"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <Button variant="secondary"> Join Now </Button>
+          </a>
         </div>
       </section>
     </main>
