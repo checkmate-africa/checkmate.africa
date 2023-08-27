@@ -107,9 +107,13 @@
           profound and positive change”
         </blockquote>
 
-        <!-- <NuxtLink href="#" rel="noreferrer noopener"> -->
-        <Button variant="tetiary" disabled>Volunteer</Button>
-        <!-- </NuxtLink> -->
+        <a
+          href="https://forms.gle/nVT19YnzJtK39yEn9"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <Button variant="tetiary" disabled>Volunteer</Button>
+        </a>
       </section>
 
       <section class="container mb-[11.5rem] max-sm:mb-[4rem]">
