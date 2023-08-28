@@ -2,7 +2,7 @@
   <div>
     <main class="relative overflow-hidden">
       <section
-        class="h-[31rem] bg-primary flex flex-col justify-end bg-cover bg-no-repeat bg-[url('/imgs/hero-bg.png')]"
+        class="h-[31rem] bg-primary flex flex-col justify-end bg-cover bg-no-repeat bg-[url('/imgs/hero-bg.webp')]"
       >
         <Header role="banner" transparent />
 
@@ -78,6 +78,7 @@
               <img
                 class="w-full h-[21.4rem] max-sm:h-[17rem] object-cover"
                 :src="activity.banner"
+                :alt="activity.title"
               />
             </figure>
 
@@ -149,21 +150,21 @@
 <script setup lang="ts">
 const activities = [
   {
-    banner: '/imgs/activity-accountability.png',
+    banner: '/imgs/activity-accountability.webp',
     title: 'Accountability Partners',
     description:
       'We bring like-minded creatives together in pairs weekly, connecting everyone to professionals in their various fields based on their skill category.',
   },
 
   {
-    banner: '/imgs/activity-focus-rooms.png',
+    banner: '/imgs/activity-focus-rooms.webp',
     title: 'Focus Rooms',
     description:
       'Our focus rooms are designed to empower creatives with a dedicated space for immersive work sessions, fostering an atmosphere of collective diligence.',
   },
 
   {
-    banner: '/imgs/activity-projects.png',
+    banner: '/imgs/activity-projects.webp',
     title: 'Opensource Projects',
     description:
       'Open-Source Projects offer a platform for creatives to collaborate and build something remarkable together, fueling a shared vision of progress.',
