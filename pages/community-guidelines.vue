@@ -2,25 +2,33 @@
   <div>
     <Header />
     <section
-      class="h-[20rem] bg-primary flex flex-col justify-between bg-cover bg-no-repeat bg-[url('/imgs/hero-bg.webp')]"
+      class="h-[20rem] max-sm:h-[14rem] bg-primary flex flex-col justify-between bg-cover bg-no-repeat bg-[url('/imgs/hero-bg.webp')]"
     >
       <div class="grow flex justify-center items-center">
-        <h1 class="text-5xl text-white font-josefin font-semibold mb-6">
+        <h1
+          class="text-5xl text-white text-center leading-snug max-sm:text-3xl max-sm:px-20 font-josefin font-semibold"
+        >
           Community Guidelines
         </h1>
       </div>
     </section>
-    <main class="py-20 pb-52 container">
-      <div class="max-w-[65vw] flex flex-col gap-14">
-        <p class="text-primary text-lg mb-10">
+    <main class="py-20 pb-52 max-sm:pb-20 container">
+      <div class="max-w-[65vw] max-sm:max-w-full flex flex-col gap-14">
+        <p class="text-primary text-lg max-sm:text-base mb-10">
           Checkmate is a space for creatives to hold each other accountable and
           learn from each other. We are committed to creating a welcoming and
           inclusive community where everyone feels safe and respected.
         </p>
 
         <div class="flex flex-col gap-4 mb-10">
-          <h2 class="text-2xl text-primary font-josefin font-bold">Values</h2>
-          <ul class="flex flex-col gap-4 list-disc pl-4 text-lg">
+          <h2
+            class="text-2xl max-sm:text-xl text-primary font-josefin font-bold"
+          >
+            Values
+          </h2>
+          <ul
+            class="flex flex-col gap-4 list-disc pl-4 text-lg max-sm:text-base"
+          >
             <li>
               <strong class="font-bold">Accountability:</strong> We support each
               other in achieving our goals by providing encouragement and
@@ -42,7 +50,7 @@
           <h2 class="text-2xl text-primary font-josefin font-bold">
             Respect and Inclusivity
           </h2>
-          <ul class="flex flex-col gap-4 text-lg">
+          <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
             <li>
               <strong
                 class="font-bold underline decoration-double decoration-secondary"
@@ -78,7 +86,7 @@
           <h2 class="text-2xl text-primary font-josefin font-bold">
             Accountability Partnerships
           </h2>
-          <ul class="flex flex-col gap-4 text-lg">
+          <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
             <li>
               <strong
                 class="font-bold underline decoration-double decoration-secondary"
@@ -113,7 +121,7 @@
           <h2 class="text-2xl text-primary font-josefin font-bold">
             Content and Discussions
           </h2>
-          <ul class="flex flex-col gap-4 text-lg">
+          <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
             <li>
               <strong
                 class="font-bold underline decoration-double decoration-secondary"
@@ -148,7 +156,7 @@
           <h2 class="text-2xl text-primary font-josefin font-bold">
             Reporting and Moderation
           </h2>
-          <ul class="flex flex-col gap-4 text-lg">
+          <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
             <li>
               <strong
                 class="font-bold underline decoration-double decoration-secondary"
@@ -174,7 +182,7 @@
           <h2 class="text-2xl text-primary font-josefin font-bold">
             Accountability for Violations
           </h2>
-          <ul class="flex flex-col gap-4 text-lg">
+          <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
             <li>
               <strong
                 class="font-bold underline decoration-double decoration-secondary"
@@ -200,7 +208,7 @@
           <h2 class="text-2xl text-primary font-josefin font-bold">
             Community Growth and Feedback
           </h2>
-          <ul class="flex flex-col gap-4 text-lg">
+          <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
             <li>
               <strong
                 class="font-bold underline decoration-double decoration-secondary"
@@ -226,7 +234,7 @@
           <h2 class="text-2xl text-primary font-josefin font-bold">
             Legal and Ethical Compliance
           </h2>
-          <ul class="flex flex-col gap-4 text-lg">
+          <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
             <li>
               <strong
                 class="font-bold underline decoration-double decoration-secondary"
@@ -248,7 +256,7 @@
         </div>
 
         <div class="flex flex-col gap-6">
-          <p class="text-primary text-lg">
+          <p class="text-primary text-lg max-sm:text-base">
             By participating in the Checkmate community, you agree to abide by
             these guidelines. These guidelines are designed to create a
             supportive and productive environment for all members. Failure to
@@ -256,7 +264,7 @@
             account suspension.
           </p>
 
-          <p class="text-primary text-lg">
+          <p class="text-primary text-lg max-sm:text-base">
             These guidelines serve as a foundation for a respectful and thriving
             community. Regularly review them to stay informed about the
             expectations within the community.
