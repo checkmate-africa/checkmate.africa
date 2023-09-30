@@ -24,7 +24,7 @@
         <ul
           class="flex items-center gap-12 font-light max-md:flex-col max-md:px-8 max-md:w-full max-md:mt-24 max-md:pt-12"
         >
-          <li v-for="(link, index) in nav" :key="index">
+          <li v-for="(link, index) in nav" :key="index" @click="toggleNav">
             <NuxtLink
               :href="link.url"
               class="text-base text-lightgrey max-md:font-light max-md:font-josefin max-md:uppercase"
@@ -75,6 +75,7 @@ const nav = [
 ]
 
 const navOpen = ref(false)
+
 const toggleNav = () => {
   window.scrollTo({
     top: 0,

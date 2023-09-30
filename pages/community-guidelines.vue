@@ -6,7 +6,7 @@
     >
       <div class="grow flex justify-center items-center">
         <h1
-          class="text-5xl text-white text-center leading-snug max-sm:text-3xl max-sm:px-20 font-josefin font-semibold"
+          class="text-5xl text-white text-center leading-normal max-sm:text-3xl max-sm:px-20 font-josefin font-semibold"
         >
           Community Guidelines
         </h1>
@@ -14,7 +14,7 @@
     </section>
     <main class="py-20 pb-52 max-sm:pb-20 container">
       <div class="max-w-[65vw] max-sm:max-w-full flex flex-col gap-14">
-        <p class="text-primary text-lg max-sm:text-base mb-10">
+        <p class="text-primary text-lg max-sm:text-base mb-10 max-sm:mb-6">
           Checkmate is a space for creatives to hold each other accountable and
           learn from each other. We are committed to creating a welcoming and
           inclusive community where everyone feels safe and respected.
