@@ -47,7 +47,9 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h2 class="text-2xl text-primary font-josefin font-bold">
+          <h2
+            class="text-2xl max-sm:text-xl text-primary font-josefin font-bold"
+          >
             Respect and Inclusivity
           </h2>
           <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
@@ -83,7 +85,9 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h2 class="text-2xl text-primary font-josefin font-bold">
+          <h2
+            class="text-2xl max-sm:text-xl text-primary font-josefin font-bold"
+          >
             Accountability Partnerships
           </h2>
           <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
@@ -118,7 +122,9 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h2 class="text-2xl text-primary font-josefin font-bold">
+          <h2
+            class="text-2xl max-sm:text-xl text-primary font-josefin font-bold"
+          >
             Content and Discussions
           </h2>
           <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
@@ -153,7 +159,9 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h2 class="text-2xl text-primary font-josefin font-bold">
+          <h2
+            class="text-2xl max-sm:text-xl text-primary font-josefin font-bold"
+          >
             Reporting and Moderation
           </h2>
           <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
@@ -179,7 +187,9 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h2 class="text-2xl text-primary font-josefin font-bold">
+          <h2
+            class="text-2xl max-sm:text-xl text-primary font-josefin font-bold"
+          >
             Accountability for Violations
           </h2>
           <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
@@ -205,7 +215,9 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h2 class="text-2xl text-primary font-josefin font-bold">
+          <h2
+            class="text-2xl max-sm:text-xl text-primary font-josefin font-bold"
+          >
             Community Growth and Feedback
           </h2>
           <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
@@ -231,7 +243,9 @@
         </div>
 
         <div class="flex flex-col gap-4">
-          <h2 class="text-2xl text-primary font-josefin font-bold">
+          <h2
+            class="text-2xl max-sm:text-xl text-primary font-josefin font-bold"
+          >
             Legal and Ethical Compliance
           </h2>
           <ul class="flex flex-col gap-4 text-lg max-sm:text-base">
