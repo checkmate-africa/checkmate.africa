@@ -70,9 +70,8 @@ defineProps<{
 
 const nav = [
   { title: 'About', url: '#' },
-  { title: 'Team', url: '#' },
   { title: 'Events', url: '#' },
-  { title: 'Community Guidelines', url: '#' },
+  { title: 'Community Guidelines', url: '/community-guidelines' },
 ]
 
 const navOpen = ref(false)

@@ -55,8 +55,5 @@
 
 <script setup lang="ts">
 const { fields, updateField } = useSignupForm()
-
-const submit = () => {
-  console.log(fields)
-}
+const submit = () => {}
 </script>
