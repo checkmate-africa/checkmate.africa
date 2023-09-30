@@ -10,7 +10,7 @@
         </h1>
       </div>
     </section>
-    <main class="py-20 container">
+    <main class="py-20 pb-52 container">
       <div class="max-w-[65vw] flex flex-col gap-14">
         <p class="text-primary text-lg mb-10">
           Checkmate is a space for creatives to hold each other accountable and
