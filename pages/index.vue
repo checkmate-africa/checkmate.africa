@@ -165,9 +165,9 @@ const activities = [
 
   {
     banner: '/imgs/activity-projects.webp',
-    title: 'Opensource Projects',
+    title: 'Peer to Peer Mentorship',
     description:
-      'Open-Source Projects offer a platform for creatives to collaborate and build something remarkable together, fueling a shared vision of progress.',
+      'Our Peer to Peer Mentorship program connects individuals who are eager to share their knowledge and skills with those looking to grow and learn',
   },
 ]
 </script>
